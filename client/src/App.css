@@ -1,0 +1,177 @@
+
+:root{
+    --primary-color: #007bff;
+    --secondary-color: #6c757d;
+    --background-dark-color: #10121A;
+    --background-dark-grey: #191D2B;
+    --border-color: #2e344e;
+    --background-light-color: #F1F1F1;
+    --background-light-color-2: rgba(74 172 196);
+    --white-color: #FFF;
+    --font-light-color: #a4acc4;
+    --font-dark-color: #313131;
+    --font-dark-color-2: #151515;
+    --sidebar-dark-color: #191D2B;
+    --scrollbar-bg-color: #383838;
+    --scrollbar-thump-color: #6b6b6b;
+    --scrollbar-track-color: #383838;
+}
+
+
+a.navLink{
+    color: var(--white-color);
+    font-size: 1.2rem;
+    font-weight: 400;
+    transition: all 0.4s ease-in-out;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 1.25rem;
+    margin: auto;
+    
+}
+
+a.navLink:hover{
+    color: var(--primary-color);
+}
+
+.App{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100%;
+    overflow-x: hidden;
+    background-color: var(--background-light-color);
+    color: var(--font-dark-color);
+    margin-top: 5rem;
+}
+
+
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: auto;
+    margin: auto;
+    
+}
+
+.card{
+    border-radius: 10px;
+    border: 1px solid var(--border-color);
+    background-color: var(--background-light-color-2);
+    transition: all 0.4s ease-in-out;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+    align-items: center;
+    justify-content: space-between;
+    padding: auto;
+    margin-top: 7rem;
+}
+
+.card .card-title{
+    padding: 1.25rem 1.25rem 0;
+    margin: auto;
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--white-color);
+    text-transform: uppercase;
+    text-align: center;
+
+}
+
+.card .card-body{
+    padding: 1.25rem;
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: var(--white-color);
+    text-align: center;
+    display:  grid;
+   
+    
+   
+    
+   
+   
+
+}
+
+.card .card-body input{
+    width: min-content;
+    padding: 0.75rem 1rem;
+    margin: 1rem 0;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: var(--font-light-color);
+    color: var(--font-dark-color);
+    font-size: 1rem;
+    font-weight: 300;
+    transition: all 0.4s ease-in-out;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+}
+
+.card .card-body button{
+    
+    width: 100%;
+    padding: 0.75rem 1rem;
+    margin: 1rem 0;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: var(--background-light-color);
+    color: var(--font-dark-color);
+    font-size: 1.5rem;
+    font-weight: 300;
+    transition: all 0.4s ease-in-out;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.3);
+    ;
+}
+
+
+h1{
+    font-size: 3rem;
+    font-weight: 500;
+    color: var(--font-dark-color);
+    text-transform: uppercase;
+    text-align: center;
+    padding: 1.25rem 1.25rem 0;
+    margin: auto;
+}
+
+h2{
+    font-size: 2rem;
+    font-weight: 300;
+    color: var(--font-dark-color);
+    text-transform: uppercase;
+    text-align: left;
+    padding: 1.25rem 1.25rem 0;
+    margin: auto;
+}
+
+.form-group{
+    
+    position: relative;
+    margin: 1rem 0;
+    display: inline-flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: start;
+    justify-content: space-between;
+    
+}
+
+
+.form-check-label{
+    font-size: 1.2rem;
+    font-weight: 300;
+    
+    text-transform: uppercase;
+    text-align: left;
+    padding: 1.25rem 1.25rem 0;
+    margin: auto;
+}
+
+
+.incorrect-block {
+    color:red !important;
+}

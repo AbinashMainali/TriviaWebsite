@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/bd2d2d85-90ed-4a0b-976f-869aeb59ee6f/resourceGroups/DefaultResourceGroup-SEAU/providers/Microsoft.Web/sites/triviacontest",
+    "appService.deploySubpath": "server"
+}
